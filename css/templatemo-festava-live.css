@@ -562,10 +562,10 @@ strong {
 -----------------------------------------*/
 .ticket-section {
   background-image: url('../images/allianz-arena-blur.jpg');
+  background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 130px;
 }
 
 .ticket-form {
