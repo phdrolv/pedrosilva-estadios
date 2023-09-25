@@ -11,12 +11,12 @@ https://templatemo.com/tm-583-festava-live
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
+  --white-color:                  #025424;
   --primary-color:                #3ff82e46;
   --secondary-color:              #177304;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #58ee076e;
-  --custom-btn-bg-hover-color:    #22c01f40;
+  --section-bg-color:             #08ef49;
+  --custom-btn-bg-color:          #45c1036e;
+  --custom-btn-bg-hover-color:    #024b0070;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #7fffd4;
@@ -32,7 +32,7 @@ https://templatemo.com/tm-583-festava-live
   --h6-font-size:                 22px;
   --p-font-size:                  18px;
   --btn-font-size:                14px;
-  --copyright-font-size:          16px;
+  --copyright-font-size:          18px;
 
   --border-radius-large:          100px;
   --border-radius-medium:         20px;
@@ -237,7 +237,7 @@ strong {
 }
 
 .tab-content {
-  background-color: var(--white-color);
+  background-color: rgba(6, 76, 2, 0.564);
   border-radius: var(--border-radius-medium);
   padding: 45px;
 }
@@ -296,7 +296,7 @@ strong {
   background: var(--custom-btn-bg-color);
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: rgb(1, 74, 1);
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
@@ -506,16 +506,26 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/edward-unsplash-blur.jpg');
+  background-image: url('../images/beira-rio-blur.jpg');
   background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
+.about-section img {
+  margin-top: 8%;
+  margin-left: 3%;
+}
+
 .about-image {
   border-radius: var(--border-radius-medium);
   display: block;
+}
+
+.about-section p {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .about-text-wrap {
@@ -551,7 +561,7 @@ strong {
   TICKET               
 -----------------------------------------*/
 .ticket-section {
-  background-image: url('../images/nicholas-green-unsplash-blur.jpg');
+  background-image: url('../images/allianz-arena-blur.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -600,6 +610,7 @@ strong {
 
 .artists-thumb:hover .artists-hover {
   transform: translateY(0);
+  background:rgba(2, 83, 1, 0.6);
   opacity: 1;
 }
 
@@ -608,7 +619,7 @@ strong {
   background-color: rgba(0, 135, 22, 0.584);
   border-radius: var(--border-radius-medium);
   backdrop-filter: blur(5px) saturate(180%);
-  -webkit-backdrop-filter: blur(5px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
   margin: 20px;
   padding: 35px;
   transition: all 0.5s ease;
@@ -621,7 +632,14 @@ strong {
 }
 
 .artists-hover p strong {
-  color: var(--white-color);
+  color: rgb(8, 147, 17);
+  display: inline-block;
+  min-width: 180px;
+  margin-right: 20px;
+}
+
+.artists-hover p {
+  color: rgb(142, 255, 149);
   display: inline-block;
   min-width: 180px;
   margin-right: 20px;
@@ -800,10 +818,10 @@ strong {
 }
 
 .custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
+  background: rgba(0, 255, 0, 0.492);
   border: none;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: rgb(0, 89, 0);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-medium);
   transition: all 0.3s;
@@ -812,10 +830,17 @@ strong {
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
-  background: var(--custom-btn-bg-hover-color);
+  background: rgba(5, 192, 5, 0.515);
   border-color: transparent;
 }
 
+/*---------------------------------------
+  ANCHOR               
+-----------------------------------------*/
+.btn-3{
+  position: relative;
+  bottom: 0px;
+}
 
 /*---------------------------------------
   SITE FOOTER              
@@ -832,13 +857,14 @@ strong {
   background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
   background-repeat: no-repeat;
   margin-bottom: 70px;
+  margin-bottom: 3%;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .site-footer-bottom {
   border-top: 1px solid #1f1c1c;
-  margin-top: 60px;
+  margin-top: -1%;
 }
 
 .site-footer-title {
@@ -861,6 +887,7 @@ strong {
 }
 
 .copyright-text {
+  margin-top: -1.5%;
   font-size: var(--copyright-font-size);
 }
 
