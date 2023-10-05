@@ -596,6 +596,10 @@ strong {
 /*---------------------------------------
   ARTISTS              
 -----------------------------------------*/
+.artists-section {
+  background-image: url('../images/melbournecricketground.jpg');
+}
+
 .artists-thumb {
   position: relative;
   overflow: hidden;
@@ -662,14 +666,14 @@ strong {
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg');
-  background-color: #242424;
+  background-image: url('../images/allianz-arena-blur.jpg');
+  background-color: #15511aa3;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .table-responsive {
-	filter: drop-shadow(2px 2px 4px #606060);
+	filter: drop-shadow(2px 2px 4px #ffffff);
 }
 
 .schedule-table {
@@ -683,13 +687,13 @@ strong {
 }
 
 .schedule-table thead th {
-  background-color: var(--secondary-color);
+  background-color: rgba(2, 83, 1, 0.6);
 }
 
 .schedule-table th,
 .schedule-table tr,
 .schedule-table td {
-  border-bottom-color: #363a3e;
+  border-bottom-color: #169204;
   padding: 30px;
 }
 
@@ -733,8 +737,9 @@ strong {
 
 .schedule-table h3,
 .schedule-table p {
-  color: var(--white-color);
+  color: rgba(2, 121, 20, 0.75);
   position: relative;
+  font-weight: bold;
   z-index: 2;
 }
 
@@ -747,6 +752,7 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   padding: 50px;
+  
 }
 
 .pricing-thumb h3 small {
@@ -801,6 +807,10 @@ strong {
 /*---------------------------------------
   CONTACT               
 -----------------------------------------*/
+.contact-section {
+	background-image: url('../images/wembley.jpg');
+}
+
 .google-map {
   border-radius: var(--border-radius-medium);
 }
